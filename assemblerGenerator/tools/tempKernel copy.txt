@@ -1,0 +1,10 @@
+//Name: _Z4Fan1PfS_ii
+//Arch: sm_61
+//cuobjdump: 102
+//Shared memory usage: 0
+//Min Stack Size: 0
+//Max Stack Size: 0
+//Frame Size: 0
+//Function count: 2
+//Function: $_Z4Fan1PfS_ii$__cuda_sm3x_div_rn_noftz_f32
+//Function: $_Z4Fan1PfS_ii$__cuda_sm3x_div_rn_noftz_f32_slowpath

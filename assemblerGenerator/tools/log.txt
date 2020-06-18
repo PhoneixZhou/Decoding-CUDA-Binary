@@ -1,0 +1,48 @@
+Building tools...
+Processing CUDA executables...
+exe ./exes/gaussian
+numKernels 2
+kernel 1
+61
+32
+exe: ./exes/gaussian,archKernelID: 1,archKernel: _Z4Fan2PfS_S_iii
+kernel 2
+61
+32
+exe: ./exes/gaussian,archKernelID: 2,archKernel: _Z4Fan1PfS_ii
+exe ./exes/heartwall
+numKernels 1
+kernel 1
+61
+32
+exe: ./exes/heartwall,archKernelID: 1,archKernel: _Z6kernelv
+exe ./exes/hotspot
+numKernels 1
+kernel 1
+61
+32
+exe: ./exes/hotspot,archKernelID: 1,archKernel: _Z14calculate_tempiPfS_S_iiiiffffff
+exe ./exes/pathfinder
+numKernels 1
+kernel 1
+61
+32
+exe: ./exes/pathfinder,archKernelID: 1,archKernel: _Z14dynproc_kerneliPiS_S_iiii
+exe ./exes/srad
+numKernels 2
+kernel 1
+61
+32
+exe: ./exes/srad,archKernelID: 1,archKernel: _Z11srad_cuda_2PfS_S_S_S_S_iiff
+kernel 2
+61
+32
+exe: ./exes/srad,archKernelID: 2,archKernel: _Z11srad_cuda_1PfS_S_S_S_S_iif
+exe ./exes/streamcluster
+numKernels 1
+kernel 1
+61
+32
+exe: ./exes/streamcluster,archKernelID: 1,archKernel: _Z19kernel_compute_costiilP5PointiiPfS1_PiPb
+
+Performing 2 rounds of bit flip analysis for architecture version 61
